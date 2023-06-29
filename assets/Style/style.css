@@ -24,36 +24,35 @@ p1{
     margin: 6vh auto;
     padding: 20px;
 }
-
-.container section form input, form label{
-    display: block;
-    margin: 10px;
-    width: 100%;
-    height: 30px;
+.relogio{
+    font-size: 70px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(219, 219, 82);
+    background-color: rgb(2, 100, 68);
 }
-.container section form{
-    margin-top: 20px;
+
+.botoes{
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
 }
 button{
     display: block;
     background-color: rgb(35, 133, 133);
-    width: 100%;
     height: 30px;
-    margin-right: 20px;
+    width: 30%;
+    margin-right: 5px;
     color: antiquewhite;
+    padding: 5px;
 }
 button:hover{
     background-color: rgb(29, 114, 114);
+    cursor: pointer;
 }
 button:active{
     width: 101%;
     height: 40px;
     background-color: rgb(18, 206, 206);
 }
-#section-table{
 
-    text-align: left;
-}
-#section-table td{
-    width: 70%;
-}
